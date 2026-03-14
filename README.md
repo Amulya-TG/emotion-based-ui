@@ -28,9 +28,8 @@ npm run dev
 📂 Project Structure
 src
  ┣ components
- ┣ context
- ┣ hooks
- ┣ utils
+ ┣ pages
+ ┣ theme
  ┣ App.jsx
  ┗ main.jsx
 
