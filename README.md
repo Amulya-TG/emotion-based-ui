@@ -1,16 +1,40 @@
-# React + Vite
+Real-Time Face Expression Detection App
+🧠😊 A real-time face expression detection web application that uses the browser camera to detect user emotions and dynamically adapt the UI theme. Built using React, Vite, and face-api.js with optimized performance for fast in-browser emotion recognition.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✨ Real-time facial emotion detection
+🎨 Dynamic UI theme switching based on detected expressions
+📷 Camera integration using WebRTC (MediaDevices API)
+⚡ Optimized frame processing using requestAnimationFrame and throttling
+🖼️ Canvas overlays for expression visualization
+🎛️ Theme customization dashboard with live preview
+💾 Persistent theme settings using localStorage
+🧩 Scalable global state using Context API + useReducer + custom hooks
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+⚛️ React
+⚡ Vite
+🤖 face-api.js
+📷 WebRTC (MediaDevices API)
+🎨 Canvas API
+🧠 Context API & Custom Hooks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Installation
+git clone https://github.com/your-username/face-expression-detection-app.git
+cd face-expression-detection-app
+npm install
+npm run dev
 
-## React Compiler
+📂 Project Structure
+src
+ ┣ components
+ ┣ context
+ ┣ hooks
+ ┣ utils
+ ┣ App.jsx
+ ┗ main.jsx
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👨‍💻 Author
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Amulya T G
+💻 Frontend / Full Stack Developer
